@@ -1,0 +1,22 @@
+services:
+  webhook-go:
+    image: fmguardia/mtm_agent_query:latest
+    container_name: webhook-go
+    environment:
+      - DB_HOST=db
+      - DB_PORT=4202
+      - DB_USER=supabase_admin
+      - DB_PASSWORD=Aha517_Rar-PGRS_U2a59w
+      - DB_NAME=postgres
+      - DB_SCHEMA=mtm
+    networks:
+      - supabase_default
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+
+  # O serviço 'supabase-db' já existe no seu compose do Supabase, só conectamos na mesma rede
+
+networks:
+  supabase_default:
+    external: true

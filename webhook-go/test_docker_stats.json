@@ -1,0 +1,53 @@
+
+
+{
+  "ip": "185.213.26.184",
+  "stats": [
+    {
+      "ID": "9fb62e454a73",
+      "Name": "supabase-storage",
+      "PIDs": "11",
+      "NetIO": "42.9MB / 40.2MB",
+      "BlockIO": "2.67MB / 0B",
+      "CPUPerc": "0.20%",
+      "MemPerc": "0.57%",
+      "MemUsage": "68.55MiB / 11.68GiB",
+      "Container": "9fb62e454a73",
+      "NetIO_RX_Bytes": 44983910.4,
+      "NetIO_TX_Bytes": 42152755.2,
+      "NetIO_RX_Formatted": "42.9MB",
+      "NetIO_TX_Formatted": "40.2MB"
+    },
+    {
+      "ID": "53bdb5db00c1",
+      "Name": "supabase-kong",
+      "PIDs": "5",
+      "NetIO": "515MB / 498MB",
+      "BlockIO": "17.9MB / 69.6kB",
+      "CPUPerc": "0.03%",
+      "MemPerc": "5.90%",
+      "MemUsage": "705.7MiB / 11.68GiB",
+      "Container": "53bdb5db00c1",
+      "NetIO_RX_Bytes": 540016640,
+      "NetIO_TX_Bytes": 522190848,
+      "NetIO_RX_Formatted": "515MB",
+      "NetIO_TX_Formatted": "498MB"
+    },
+    {
+      "ID": "9c59b4fc233c",
+      "Name": "supabase-db",
+      "PIDs": "49",
+      "NetIO": "1.04GB / 960MB",
+      "BlockIO": "186MB / 583MB",
+      "CPUPerc": "0.16%",
+      "MemPerc": "3.44%",
+      "MemUsage": "411.3MiB / 11.68GiB",
+      "Container": "9c59b4fc233c",
+      "NetIO_RX_Bytes": 1116691496.96,
+      "NetIO_TX_Bytes": 1006632960,
+      "NetIO_RX_Formatted": "1.04GB",
+      "NetIO_TX_Formatted": "960MB"
+    }
+  ],
+  "timestamp": "2025-04-24T15:21:31-03:00"
+}

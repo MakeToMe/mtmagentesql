@@ -1,0 +1,39 @@
+{
+  "ip": "185.213.26.184",
+  "mem_total": 15997.398,
+  "mem_usada": 6152.371,
+  "mem_usada_p": 38.459,
+  "mem_disponivel": 9845.027,
+  "mem_disponivel_p": 61.541,
+  "cpu_total": 4,
+  "cpu_livre": 99.2,
+  "cpu_usada": 0.8,
+  "disco_total": 68.0,
+  "disco_usado": 42.0,
+  "disco_livre": 26.0,
+  "disco_uso_p": 61.765,
+  "disco_livre_p": 38.235,
+  "cpu_cores": [
+    {
+      "core_id": 0,
+      "used_percent": 1.2,
+      "idle_percent": 98.8
+    },
+    {
+      "core_id": 1,
+      "used_percent": 0.8,
+      "idle_percent": 99.2
+    },
+    {
+      "core_id": 2,
+      "used_percent": 0.5,
+      "idle_percent": 99.5
+    },
+    {
+      "core_id": 3,
+      "used_percent": 0.7,
+      "idle_percent": 99.3
+    }
+  ],
+  "timestamp": "2025-04-26T13:32:50-03:00"
+}
