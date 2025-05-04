@@ -329,10 +329,10 @@ func main() {
 			return
 		}
 		
-		// Insere as estatísticas na tabela docker_stats
+		// Insere as estatísticas na tabela docker_stats, incluindo server_uid
 		_, err = db.ExecContext(context.Background(),
-			`INSERT INTO mtm.docker_stats (titular, ip, stats) VALUES ($1, $2, $3)`,
-			srv.Titular, req.IP, req.Stats)
+			`INSERT INTO mtm.docker_stats (titular, ip, stats, server_uid) VALUES ($1, $2, $3, $4)`,
+			srv.Titular, req.IP, req.Stats, srv.UID)
 		
 		if err != nil {
 			log.Printf("[webhook-go] Erro ao inserir estatísticas Docker: %v", err)
